@@ -16,6 +16,9 @@ Option Explicit
 'VERSION HISTORY
 '
 
+'Version 1.07
+'Change to testing environment
+
 'Version 1.06
 'Bugfix: FormControlHelper function-name fixed
 
