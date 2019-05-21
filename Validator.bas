@@ -1742,7 +1742,7 @@ End Function
 '
 'FormControlHelper_isSameOrBothNull
 '
-Public Function isSameOrBothNull(ByVal varInputOne As Variant, ByVal varInputTwo As Variant) As Boolean
+Public Function FormControlHelper_isSameOrBothNull(ByVal varInputOne As Variant, ByVal varInputTwo As Variant) As Boolean
   FormControlHelper_isSameOrBothNull = False
   
   If (varInputOne = varInputTwo) Or (IsNull(varInputOne) And IsNull(varInputTwo)) Then

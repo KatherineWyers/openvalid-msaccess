@@ -11,20 +11,13 @@ Option Explicit
 '                \___/ \__,_|_|_|\__,_|\__,_|\__\___/|_|                 '
 '                                                                        '
 '************************************************************************'
-                                                                       
-                                                                       
-'Current Version 1.05
-                                                                       
-                                                                       
-'
-'The application is written to validate parameters for each function.
-'This decision was taken because that application runs on standalone
-'workstations handling a small number of queries per second.
-'
-
+                                                                      
 '
 'VERSION HISTORY
 '
+
+'Version 1.06
+'Bugfix: FormControlHelper function-name fixed
 
 'Version 1.05
 'Bugfix: Added dbSeeChanges to AccessQuery function to fix bug when SQL-server with autoincrement is used with Access stored query

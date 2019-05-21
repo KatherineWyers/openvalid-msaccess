@@ -28,7 +28,7 @@ Option Explicit
 '- Display a warning message stating that the software in being bypassed
 
 'Set environment
-Public Const ENVIRONMENT As String = "testing" '"testing", "production", "deactivated"
+Public Const ENVIRONMENT As String = "production" '"testing", "production", "deactivated"
 
 
 
